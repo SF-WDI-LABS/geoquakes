@@ -1,8 +1,33 @@
+#quakewatch {
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+}
+
+body {
+  background-color: black;
+}
+
 .container {
   padding-bottom: 50px;
+  margin: 15px;
 }
 
 #map {
-  height: 600px;
+  height: 390px;
   margin-top: 20px;
+  border: 10px solid white;
+}
+
+.row {
+  color: white;
+}
+
+#info {
+  width: 650px;
+  height: 350px;
+  overflow: scroll;
+}
+
+h3 {
+  font-family: 'Amatic SC', cursive;
 }
